@@ -13,6 +13,7 @@ h1 {
 .hero p, .navbar li a {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 300;
 }
 
 .logo {
@@ -65,11 +66,25 @@ h2 {
 .navbarContent {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex: 1;
     max-width: 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.navbarConent ul {
+.navbarContent ul {
     display: flex;
+    margin: 0%;
+    gap: 16px;
 }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 

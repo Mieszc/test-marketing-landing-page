@@ -102,8 +102,9 @@ a {
     justify-content: center;
     align-items: center;
     max-width: 1000px;
-    margin-top: 64px;
-    margin-bottom: 64px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 25px;
 }
 
 .heroText {
@@ -111,10 +112,30 @@ a {
     flex-direction: column;
     flex: 1;
     max-width: 50%;
+    gap: 20px; 
 }
 
 .heroText p {
     margin: 0%;
 }
 
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: #3882f6;
+    color: #fff;
+    width: fit-content;
+    padding: 8px 24px;
+    border-style: none;
+}
 
+.heroImage {
+    height: 100%;
+    width: 50%;
+}
+
+.heroImage img {
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+}

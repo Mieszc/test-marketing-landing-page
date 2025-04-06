@@ -137,5 +137,49 @@ button {
 .heroImage img {
     height: 100%;
     width: 100%;
-    border-radius: 16px;
+    border-radius: 12px;
+}
+
+.cardsCopy {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.cardsContent {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 25px;
+}
+
+.cards {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    gap: 35px; 
+}
+
+.card {
+    flex: auto;
+    height: 250px;
+
+}
+
+.card .imageHolder {
+    height: 75%; 
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 12px; 
 }

@@ -9,6 +9,7 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin:0%;
 }
 
 .hero p, .navbar li a {
@@ -99,7 +100,10 @@ a {
     display: flex;
     flex: 1;
     justify-content: center;
+    align-items: center;
     max-width: 1000px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .heroText {
@@ -107,6 +111,10 @@ a {
     flex-direction: column;
     flex: 1;
     max-width: 50%;
+}
+
+.heroText p {
+    margin: 0%;
 }
 
 

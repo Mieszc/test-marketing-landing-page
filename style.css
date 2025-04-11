@@ -5,6 +5,8 @@ body {
     flex-direction: column;
 }
 
+/*General*/
+
 h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -85,6 +87,8 @@ a {
     text-decoration: none;
 }
 
+/*Hero Section*/
+
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -135,6 +139,8 @@ button {
     border-radius: 12px;
 }
 
+/*Card section*/
+
 .cardsCopy {
     background-color: #ffffff;
     display: flex;
@@ -184,4 +190,22 @@ button {
     text-align: center;
     font-size: 16px;
     color: #273345;
+}
+
+/*Testimonial section*/
+
+.testimonials {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonialContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }

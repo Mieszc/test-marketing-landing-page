@@ -163,7 +163,7 @@ button {
 .card {
     flex: auto;
     height: 250px;
-
+    gap: 16px;
 }
 
 .card .imageHolder {

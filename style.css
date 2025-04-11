@@ -162,12 +162,13 @@ button {
 
 .card {
     flex: auto;
-    height: 250px;
-    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .card .imageHolder {
-    height: 75%; 
+    height: 80%; 
 }
 
 .card img {

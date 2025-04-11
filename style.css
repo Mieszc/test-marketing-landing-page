@@ -30,11 +30,6 @@ h2 {
     font-weight: 900;
 }
 
-.card p {
-    font-size: 16px;
-    color: #273345;
-}
-
 .testimonialText p {
     font-size: 36px;
     font-weight: 300;
@@ -182,4 +177,10 @@ button {
     border-width: 5px;
     border-color: #3882f6;
     border-radius: 12px; 
+}
+
+.card p {
+    text-align: center;
+    font-size: 16px;
+    color: #273345;
 }

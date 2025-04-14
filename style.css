@@ -118,7 +118,7 @@ a {
     margin: 0%;
 }
 
-button {
+.button {
     background-color: #3882f6;
     border-radius: 8px;
     border-color: #3882f6;
@@ -259,5 +259,10 @@ button {
 }
 
 .ctaButton {
+    background-color: #3882f6;
+    border-radius: 8px;
     border-color: #fff;
+    color: #ffffff;
+    width: fit-content;
+    padding: 8px 24px;
 }

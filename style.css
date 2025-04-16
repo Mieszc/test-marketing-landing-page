@@ -281,3 +281,17 @@ a {
     width: fit-content;
     padding: 8px 24px;
 }
+
+
+/*Footer Section*/
+
+.footer {
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.footer p {
+    color: #fff;
+}

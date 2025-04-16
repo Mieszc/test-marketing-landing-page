@@ -93,6 +93,8 @@ a {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .heroContent {
@@ -145,6 +147,8 @@ a {
     background-color: #ffffff;
     display: flex;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .cardsContent {
@@ -198,6 +202,8 @@ a {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .testimonialContainer {
@@ -231,21 +237,26 @@ a {
     background-color: #fff;
     display: flex;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .ctaBox {
     display: flex;
     flex: 1;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     max-width: 1000px;
     margin-top: 80px;
     margin-bottom: 80px;
     gap: 25px;
-    background-color: #3882f6;
+    background-color: #3882f6;  
     border-radius: 8px;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-wrap: wrap;
 }
 
 .ctaLabels h3, p {

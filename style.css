@@ -168,6 +168,7 @@ a {
     justify-content: center;
     width: 100%;
     gap: 35px; 
+    flex-wrap: wrap;
 }
 
 .card {
@@ -175,6 +176,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 .card .imageHolder {
@@ -182,7 +185,7 @@ a {
 }
 
 .card img {
-    width: 100%;
+    width: 250px;
     height: 100%;
     border-style: solid;
     border-width: 5px;
@@ -194,6 +197,7 @@ a {
     text-align: center;
     font-size: 16px;
     color: #273345;
+    width: 230px;
 }
 
 /*Testimonial section*/
